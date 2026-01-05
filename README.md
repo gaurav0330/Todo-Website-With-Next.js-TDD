@@ -38,7 +38,7 @@ This is a full-stack Todo application built **entirely using Test-Driven Develop
 
 - 📚 **Learn TDD**: Hands-on experience with test-first development
 - 🏗️ **Modern Architecture**: Next.js App Router, Prisma ORM, TypeScript
-- ✅ **High Test Coverage**: 100% coverage on backend API routes and business logic  
+- ✅ **High Test Coverage**: High coverage on critical frontend user flows  
 - 🎨 **Professional UI**: Gradient design with Tailwind CSS
 - 🔒 **Type Safe**: End-to-end TypeScript implementation
 
@@ -250,10 +250,17 @@ describe('Home Page', () => {
 });
 ```
 
-### Test Coverage Report
+## 📸 Screenshots
 
-Run `npm test -- --coverage` to see:
-![Coverage Report](./screenshots/coverage-report.png)
+### ✅ All Tests Passing
+![All Tests Passing](screenshots/tests-passing.png)
+
+### 📊 Coverage Report
+![Coverage Report](screenshots/coverage-report.png)
+
+### 🖥️ Application UI
+![Todo App UI](screenshots/app-ui.png)
+
 ---
 
 ## 🚀 Getting Started
@@ -487,28 +494,15 @@ todo-nextjs/
 
 - ✅ **Backend API Routes:** 100% statement coverage
 - ✅ **Critical User Flows:** 100% coverage
-- ✅ **Frontend Components:** 95%+ coverage
-- 🎯 **Overall Target:** 90%+ coverage
+- ✅ **Frontend Components:** Behavior-driven coverage
+- 🎯 **Overall Coverage:** ~85–90%
+
 
 ### Current Coverage
 
 ```bash
 npm test -- --coverage
 ```
-
----
-
-## 📚 Resources
-
-### TDD Learning
-- [Test-Driven Development by Kent Beck](https://www.amazon.com/Test-Driven-Development-Kent-Beck/dp/0321146530)
-- [Growing Object-Oriented Software, Guided by Tests](http://www.growing-object-oriented-software.com/)
-
-### Technologies
-- [Next.js Documentation](https://nextjs.org/docs)
-- [Prisma Documentation](https://www.prisma.io/docs)
-- [Jest Documentation](https://jestjs.io/)
-- [React Testing Library](https://testing-library.com/react)
 
 ---
 
