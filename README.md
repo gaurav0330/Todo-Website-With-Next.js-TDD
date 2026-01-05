@@ -519,14 +519,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - GitHub: [@gaurav0330](https://github.com/gaurav0330)
 - LinkedIn: [Gaurav Jikar](https://www.linkedin.com/in/gauravjikar/)
----
-
-## 🙏 Acknowledgments
-
-- Inspired by Kent Beck's TDD methodology
-- Next.js team for amazing developer experience
-- Prisma team for excellent ORM
-- Testing Library for intuitive testing APIs
 
 ---
 
