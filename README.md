@@ -6,7 +6,9 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=for-the-badge&logo=typescript)
 ![Prisma](https://img.shields.io/badge/Prisma-5-2D3748?style=for-the-badge&logo=prisma)
 ![Jest](https://img.shields.io/badge/Jest-29-C21325?style=for-the-badge&logo=jest)
-![TDD](https://img.shields.io/badge/TDD-100%25-green?style=for-the-badge)
+![TDD](https://img.shields.io/badge/TDD-Test%20First-green?style=for-the-badge)
+![Coverage](https://img.shields.io/badge/Coverage-88%25-brightgreen?style=for-the-badge)
+
 
 **A production-ready Todo application built entirely with Test-Driven Development**
 
@@ -39,7 +41,7 @@ This is a full-stack Todo application built **entirely using Test-Driven Develop
 
 - 📚 **Learn TDD**: Hands-on experience with test-first development
 - 🏗️ **Modern Architecture**: Next.js App Router, Prisma ORM, TypeScript
-- ✅ **High Test Coverage**: 100% coverage on critical paths
+- ✅ **High Test Coverage**: 100% coverage on backend API routes and business logic  
 - 🎨 **Professional UI**: Gradient design with Tailwind CSS
 - 🔒 **Type Safe**: End-to-end TypeScript implementation
 
@@ -601,10 +603,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Your Name**
 
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your Name](https://linkedin.com/in/yourprofile)
-- Twitter: [@yourhandle](https://twitter.com/yourhandle)
-
+- GitHub: [@gaurav0330](https://github.com/gaurav0330)
+- LinkedIn: [Gaurav Jikar](https://www.linkedin.com/in/gauravjikar/)
 ---
 
 ## 🙏 Acknowledgments
@@ -621,8 +621,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **⭐ Star this repo if you found it helpful!**
 
 **Built with ❤️ using Test-Driven Development**
-
-![Tests](https://img.shields.io/badge/tests-passing-brightgreen)
-![Coverage](https://img.shields.io/badge/coverage-98%25-green)
-
 </div>
