@@ -11,9 +11,6 @@
 
 
 **A production-ready Todo application built entirely with Test-Driven Development**
-
-[Live Demo](#) • [Report Bug](#) • [Request Feature](#)
-
 </div>
 
 ---
@@ -256,21 +253,7 @@ describe('Home Page', () => {
 ### Test Coverage Report
 
 Run `npm test -- --coverage` to see:
-
-```
---------------------------------|---------|----------|---------|---------|
-File                            | % Stmts | % Branch | % Funcs | % Lines |
---------------------------------|---------|----------|---------|---------|
-All files                       |   98.50 |    95.20 |   100.0 |   98.50 |
- app/api/todos                  |   100.0 |    100.0 |   100.0 |   100.0 |
-  route.ts                      |   100.0 |    100.0 |   100.0 |   100.0 |
- app/api/todos/[id]             |   100.0 |    100.0 |   100.0 |   100.0 |
-  route.ts                      |   100.0 |    100.0 |   100.0 |   100.0 |
- app                            |   96.50 |    90.00 |   100.0 |   96.50 |
-  page.tsx                      |   96.50 |    90.00 |   100.0 |   96.50 |
---------------------------------|---------|----------|---------|---------|
-```
-
+![Coverage Report](./screenshots/coverage-report.png)
 ---
 
 ## 🚀 Getting Started
@@ -285,8 +268,8 @@ All files                       |   98.50 |    95.20 |   100.0 |   98.50 |
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/todo-nextjs-tdd.git
-cd todo-nextjs-tdd
+git clone https://github.com/gaurav0330/Todo-Website-With-Next.js-TDD.git
+cd Todo-Website-With-Next.js-TDD
 ```
 
 2. **Install dependencies**
@@ -515,59 +498,6 @@ npm test -- --coverage
 
 ---
 
-## 🔄 CI/CD Pipeline (Planned)
-
-```yaml
-# .github/workflows/test.yml
-name: Tests
-on: [push, pull_request]
-jobs:
-  test:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - run: npm ci
-      - run: npx prisma generate
-      - run: npm test
-```
-
----
-
-## 🤝 Contributing
-
-Contributions following TDD principles are welcome!
-
-### Contribution Guidelines
-
-1. **Fork the repository**
-2. **Create a feature branch** (`git checkout -b feature/AmazingFeature`)
-3. **Write tests first** (following TDD)
-4. **Implement the feature** (make tests pass)
-5. **Ensure all tests pass** (`npm test`)
-6. **Commit your changes** (`git commit -m 'Add AmazingFeature'`)
-7. **Push to branch** (`git push origin feature/AmazingFeature`)
-8. **Open a Pull Request**
-
-### Adding a New Feature (TDD Way)
-
-```bash
-# 1. Create test file
-touch __tests__/new-feature.test.ts
-
-# 2. Write failing test
-# 3. Run tests (they should fail)
-npm test
-
-# 4. Implement feature
-# 5. Run tests (they should pass)
-npm test
-
-# 6. Refactor and ensure tests still pass
-npm test
-```
-
----
-
 ## 📚 Resources
 
 ### TDD Learning
@@ -582,16 +512,6 @@ npm test
 
 ---
 
-## 🎯 Future Enhancements
-
-- [ ] Add todo editing functionality
-- [ ] Implement filtering (All, Active, Completed)
-- [ ] Add due dates and priorities
-- [ ] User authentication
-- [ ] Deploy to Vercel
-- [ ] Add E2E tests with Playwright
-
----
 
 ## 📄 License
 
